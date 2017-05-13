@@ -1,0 +1,113 @@
+button {
+  font-family: 'Baloo',cursive;
+}
+
+.ageInput {
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.caretakerInput {
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+#submitNew {
+  box-shadow: 0px 4px 20px rgb(66,139,202);
+  color: rgb(66,139,202);
+  font-size: 30px;
+  background-color: rgba(91,192,222,.1);
+}
+
+#submitNew:hover {
+  box-shadow: 0px 4px 20px rgb(91,192,222);
+  color: white;
+  font-size: 30px;
+  background-color: rgb(66,139,202);
+}
+
+#matureButton {
+  position: absolute;
+  right: 25px;
+  box-shadow: 2px 2px 5px black;
+  font-size: 18px;
+}
+
+#youngButton {
+  position: absolute;
+  left: 25px;
+  box-shadow: 2px 2px 5px black;
+  font-size: 18px;
+}
+
+#allButton {
+  position: absolute;
+  right: 227px;
+  box-shadow: 2px 2px 5px black;
+  font-size: 20px;
+}
+
+#editRecords, #hideDetails {
+  box-shadow: 2px 2px 5px black;
+}
+
+#header {
+  padding-left: 20px;
+  font-family: 'Baloo',cursive;
+}
+
+#big {
+  color: rgb(66,139,202);
+}
+
+#small {
+  color: rgb(91,192,222);
+  font-size: 35px;
+}
+
+#new {
+  font-family: 'Baloo',cursive;
+}
+
+.animalDetails {
+  font-family: 'Baloo',cursive;
+}
+
+.species {
+  display: inline;
+  color: blue;
+  font-size: 20px;
+}
+
+.species:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.name {
+  display: inline;
+  font-size: 20px;
+}
